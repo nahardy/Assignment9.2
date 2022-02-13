@@ -64,7 +64,7 @@ def chooseCave():
             
 playAgain = 'yes'
 
-#while playAgain = 'yes' or playAgain = 'y': missing ==
+#while playAgain = 'yes' or playAgain = 'y': supposed to have two equal signs
 while playAgain == 'yes' or playAgain== 'y':
 	#displayIntro() Indentation
     displayIntro()
@@ -79,5 +79,5 @@ while playAgain == 'yes' or playAgain== 'y':
     playAgain = input()
 
     if playAgain == "no":
-		#print("Thanks for planing") indentation
-       print("Thanks for planing")
+		#print("Thanks for planing") indentation off; spelling also changed to playing
+       print("Thanks for playing")
