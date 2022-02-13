@@ -51,7 +51,7 @@ def chooseCave():
 	#friendlyCave = random.randint(1, 2) INDENTATION ERROR
                 friendlyCave = random.randint(1, 2)
         if chosenCave == str(friendlyCave):
-	#if chosenCave == str(friendlyCave):
+	
 		#print('Gives you his treasure!') #indentation error
             print('Gives you his treasure!')
             
@@ -59,7 +59,7 @@ def chooseCave():
 
 	
         else:        
-		#print 'Gobbles you down in one bite!' missing parenthesis 
+		#print 'Gobbles you down in one bite!' missing parenthesis; identation error
              print ('Gobbles you down in one bite!')
             
 playAgain = 'yes'
